@@ -1,0 +1,22 @@
+{
+  "questions": [
+    {
+      "q": "What is 37.5% of 640?",
+      "options": ["220", "240", "250", "260"],
+      "answer": 1,
+      "explanation": "37.5% is 3/8, and 3/8 × 640 = 240."
+    },
+    {
+      "q": "A price rises by 20% and then falls by 10%. What is the net change?",
+      "options": ["+10%", "+8%", "+12%", "−2%"],
+      "answer": 1,
+      "explanation": "Use a + b + ab/100: 20 − 10 − 200/100 = +8%."
+    },
+    {
+      "q": "18% of 50 equals which of these?",
+      "options": ["50% of 18", "18% of 5", "5% of 18", "9% of 25"],
+      "answer": 0,
+      "explanation": "x% of y equals y% of x, so 18% of 50 = 50% of 18 = 9."
+    }
+  ]
+}

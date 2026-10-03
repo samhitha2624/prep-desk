@@ -1,0 +1,47 @@
+{
+  "synopsis": [
+    {
+      "heading": "What a percentage is",
+      "body": "<p>A percentage is a fraction with 100 as the denominator. <b>x%</b> of a number means <b>x/100 × number</b>. Most exam questions become fast once you stop multiplying by 100 and start thinking in fractions.</p>"
+    },
+    {
+      "heading": "Increase and decrease",
+      "body": "<p>If a value rises by r%, the new value is <b>(100 + r)/100</b> times the old one. If it falls by r%, multiply by <b>(100 − r)/100</b>. A 25% rise multiplies by 5/4; a 20% fall multiplies by 4/5.</p>"
+    },
+    {
+      "heading": "Percentage change",
+      "body": "<p>Change % = (New − Old) / Old × 100. Always divide by the <b>original</b> value. That is why a 20% fall followed by a 20% rise does not get you back to the start.</p>"
+    }
+  ],
+  "formulas": [
+    {
+      "label": "Percent change",
+      "value": "(New − Old) ÷ Old × 100"
+    },
+    {
+      "label": "Successive a% and b%",
+      "value": "a + b + ab/100"
+    },
+    {
+      "label": "Price up r%, keep spend same",
+      "value": "cut usage by r/(100+r) × 100%"
+    }
+  ],
+  "tricks": [
+    {
+      "title": "Learn the fraction table",
+      "body": "Memorise these and most calculations become one step: 1/2 = 50%, 1/3 = 33.33%, 1/4 = 25%, 1/6 = 16.67%, 1/8 = 12.5%, 1/9 = 11.11%, 1/11 = 9.09%, 1/12 = 8.33%.",
+      "example": "37.5% of 640 = 3/8 × 640 = 240"
+    },
+    {
+      "title": "Swap the numbers",
+      "body": "x% of y equals y% of x. Pick whichever pair is easier to compute in your head.",
+      "example": "18% of 50 = 50% of 18 = 9"
+    },
+    {
+      "title": "Successive change in one line",
+      "body": "For two changes a% and b%, the net change is a + b + ab/100. Use a minus sign for a decrease.",
+      "example": "+20% then −10%: 20 − 10 − 200/100 = +8%"
+    }
+  ]
+}

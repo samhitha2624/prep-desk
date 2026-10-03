@@ -1,0 +1,78 @@
+{
+  "id": "english",
+  "name": "English",
+  "tagline": "Grammar rules, vocabulary and reading speed for verbal sections.",
+  "color": "eng",
+  "topics": [
+    {
+      "id": "subject-verb",
+      "title": "Subject–Verb Agreement",
+      "blurb": "Singular and plural subjects, either/or, collective nouns.",
+      "level": "Foundation",
+      "minutes": 10
+    },
+    {
+      "id": "tenses",
+      "title": "Tenses",
+      "blurb": "All twelve tenses and the errors examiners like to test.",
+      "level": "Foundation",
+      "minutes": 14
+    },
+    {
+      "id": "articles-prepositions",
+      "title": "Articles & Prepositions",
+      "blurb": "A, an, the, and the prepositions that trip people up.",
+      "level": "Foundation",
+      "minutes": 12
+    },
+    {
+      "id": "vocabulary",
+      "title": "Synonyms & Antonyms",
+      "blurb": "Roots, prefixes and high-frequency exam words.",
+      "level": "Foundation",
+      "minutes": 15
+    },
+    {
+      "id": "idioms",
+      "title": "Idioms & Phrases",
+      "blurb": "Common idioms with meaning and usage.",
+      "level": "Foundation",
+      "minutes": 10
+    },
+    {
+      "id": "active-passive",
+      "title": "Active & Passive Voice",
+      "blurb": "Conversion rules for every tense.",
+      "level": "Core",
+      "minutes": 12
+    },
+    {
+      "id": "direct-indirect",
+      "title": "Direct & Indirect Speech",
+      "blurb": "Reporting verbs, tense backshift and pronoun changes.",
+      "level": "Core",
+      "minutes": 12
+    },
+    {
+      "id": "error-spotting",
+      "title": "Error Spotting",
+      "blurb": "A checklist for finding the wrong part fast.",
+      "level": "Core",
+      "minutes": 15
+    },
+    {
+      "id": "para-jumbles",
+      "title": "Para Jumbles",
+      "blurb": "Opening sentences, linking words and mandatory pairs.",
+      "level": "Advanced",
+      "minutes": 15
+    },
+    {
+      "id": "reading-comprehension",
+      "title": "Reading Comprehension",
+      "blurb": "Skimming, main idea, inference and tone questions.",
+      "level": "Advanced",
+      "minutes": 20
+    }
+  ]
+}

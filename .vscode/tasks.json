@@ -1,0 +1,12 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    { "label": "Install dependencies", "type": "shell", "command": "npm install", "problemMatcher": [] },
+    { "label": "Start web + API", "type": "npm", "script": "dev", "isBackground": true, "problemMatcher": [], "group": { "kind": "build", "isDefault": true } },
+    { "label": "Start API only", "type": "npm", "script": "dev:api", "isBackground": true, "problemMatcher": [] },
+    { "label": "Start web only", "type": "npm", "script": "dev:web", "isBackground": true, "problemMatcher": [] },
+    { "label": "Run API tests", "type": "npm", "script": "test", "problemMatcher": [], "group": "test" },
+    { "label": "Build web", "type": "npm", "script": "build", "problemMatcher": [] },
+    { "label": "Check content", "type": "npm", "script": "check:content", "problemMatcher": [] }
+  ]
+}

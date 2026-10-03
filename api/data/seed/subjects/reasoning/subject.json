@@ -1,0 +1,78 @@
+{
+  "id": "reasoning",
+  "name": "Reasoning",
+  "tagline": "Patterns, logic and arrangements, solved step by step.",
+  "color": "rsn",
+  "topics": [
+    {
+      "id": "number-series",
+      "title": "Number Series",
+      "blurb": "Differences, squares and cubes, alternating and mixed series.",
+      "level": "Foundation",
+      "minutes": 12
+    },
+    {
+      "id": "coding-decoding",
+      "title": "Coding–Decoding",
+      "blurb": "Letter shifts, reverse alphabet and word-to-code patterns.",
+      "level": "Foundation",
+      "minutes": 12
+    },
+    {
+      "id": "direction-sense",
+      "title": "Direction Sense",
+      "blurb": "Turns, shadows and shortest distance.",
+      "level": "Foundation",
+      "minutes": 10
+    },
+    {
+      "id": "blood-relations",
+      "title": "Blood Relations",
+      "blurb": "Family trees, coded relations and pointing-to-a-photo questions.",
+      "level": "Foundation",
+      "minutes": 12
+    },
+    {
+      "id": "ranking-order",
+      "title": "Ranking & Order",
+      "blurb": "Position from the left and right, total count, interchange.",
+      "level": "Foundation",
+      "minutes": 8
+    },
+    {
+      "id": "syllogisms",
+      "title": "Syllogisms",
+      "blurb": "All, some, no statements with Venn diagrams.",
+      "level": "Core",
+      "minutes": 15
+    },
+    {
+      "id": "seating-arrangement",
+      "title": "Seating Arrangement",
+      "blurb": "Linear rows and circular tables, facing in and out.",
+      "level": "Core",
+      "minutes": 20
+    },
+    {
+      "id": "puzzles",
+      "title": "Puzzles",
+      "blurb": "Floor, box and scheduling puzzles with a grid method.",
+      "level": "Advanced",
+      "minutes": 22
+    },
+    {
+      "id": "data-sufficiency",
+      "title": "Data Sufficiency",
+      "blurb": "Deciding which statements are enough to answer.",
+      "level": "Advanced",
+      "minutes": 15
+    },
+    {
+      "id": "statements",
+      "title": "Statements & Conclusions",
+      "blurb": "Assumptions, arguments and courses of action.",
+      "level": "Advanced",
+      "minutes": 14
+    }
+  ]
+}

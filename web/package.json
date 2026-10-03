@@ -1,0 +1,16 @@
+{
+  "name": "@prep-desk/web",
+  "private": true,
+  "version": "0.2.0",
+  "description": "Prep Desk frontend: the study app learners and admins use in the browser.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:demo": "vite build --mode demo",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.3.0"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "synopsis": [
+    {
+      "heading": "The core rule",
+      "body": "<p>A singular subject takes a singular verb, and a plural subject takes a plural verb. The hard part is finding the real subject, which is often separated from its verb by a phrase.</p>"
+    },
+    {
+      "heading": "Ignore the phrase in between",
+      "body": "<p>Words like <i>along with</i>, <i>as well as</i>, <i>together with</i> and <i>in addition to</i> do not change the subject. <i>The captain, along with his players, <b>was</b> invited.</i></p>"
+    },
+    {
+      "heading": "Either/or and neither/nor",
+      "body": "<p>The verb agrees with the subject <b>nearer</b> to it. <i>Neither the teacher nor the students <b>were</b> present.</i> <i>Neither the students nor the teacher <b>was</b> present.</i></p>"
+    }
+  ],
+  "formulas": [
+    {
+      "label": "Each, every, either, neither",
+      "value": "Singular verb"
+    },
+    {
+      "label": "A number of + plural noun",
+      "value": "Plural verb"
+    },
+    {
+      "label": "The number of + plural noun",
+      "value": "Singular verb"
+    }
+  ],
+  "tricks": [
+    {
+      "title": "Cover the middle",
+      "body": "Put your finger over everything between the subject and the verb, including prepositional phrases. Read what is left; the error usually jumps out.",
+      "example": "The box of chocolates [are] on the table → The box is"
+    },
+    {
+      "title": "Watch \"one of the\"",
+      "body": "\"One of the + plural noun\" takes a singular verb because the subject is \"one\". But \"one of those who\" takes a plural verb because \"who\" refers to the plural noun.",
+      "example": "One of the boys is absent. He is one of those who work hard."
+    },
+    {
+      "title": "Amounts are singular",
+      "body": "Sums of money, distances and periods of time treated as one amount take a singular verb.",
+      "example": "Ten kilometres is a long walk."
+    }
+  ]
+}

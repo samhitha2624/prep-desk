@@ -1,0 +1,47 @@
+{
+  "synopsis": [
+    {
+      "heading": "Set up the compass first",
+      "body": "<p>Draw North at the top, South at the bottom, East on the right and West on the left before you read the question. Mark the start point with a dot and draw every move as you read it. Most mistakes come from turning in your head.</p>"
+    },
+    {
+      "heading": "Left and right turns",
+      "body": "<p>A right turn is clockwise and a left turn is anticlockwise, measured from the direction the person is <b>currently facing</b>, not from North. Facing East, a right turn leads South.</p>"
+    },
+    {
+      "heading": "Shortest distance",
+      "body": "<p>When the path forms a right angle, the shortest distance back to the start is the hypotenuse: √(x² + y²), where x is the net East–West movement and y is the net North–South movement.</p>"
+    }
+  ],
+  "formulas": [
+    {
+      "label": "Shortest distance",
+      "value": "√(net E–W² + net N–S²)"
+    },
+    {
+      "label": "Morning sun",
+      "value": "Sun in the East, shadow falls West"
+    },
+    {
+      "label": "Evening sun",
+      "value": "Sun in the West, shadow falls East"
+    }
+  ],
+  "tricks": [
+    {
+      "title": "Cancel opposite moves",
+      "body": "Add all North moves, subtract all South moves; do the same for East and West. You only need the two net values to find the final position.",
+      "example": "5 N, 3 E, 2 S, 1 W → 3 N and 2 E"
+    },
+    {
+      "title": "Remember the common triples",
+      "body": "Exam distances are usually Pythagorean triples. Spot 3-4-5, 5-12-13, 6-8-10 and 8-15-17 and skip the square root.",
+      "example": "Net 6 km N and 8 km E → 10 km away"
+    },
+    {
+      "title": "Count right turns",
+      "body": "Each right turn adds 90° clockwise; each left turn subtracts 90°. Two rights face the opposite way, four rights face the start direction.",
+      "example": "Facing North, R, R, L → East"
+    }
+  ]
+}

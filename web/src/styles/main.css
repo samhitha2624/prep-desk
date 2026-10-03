@@ -1,0 +1,10 @@
+/* Layout: app shell with a fixed study-desk sidebar on wide screens, a bottom tab bar on phones.
+   Each subject owns one hue (aptitude teal, reasoning amber, english plum) used for chips, bars and headers. */
+@import "./tokens.css";
+@import "./base.css";
+@import "./layout.css";
+@import "./components.css";
+@import "./pages.css";
+@import "./auth.css";
+@import "./admin.css";
+@import "./responsive.css";

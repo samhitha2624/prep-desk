@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+
+# Local settings and secrets
+.env
+.env.local
+
+# API data written at runtime (accounts, edits, progress) and the dev signing key
+api/data/db.json
+api/data/db.json.tmp*
+api/data/.secret

@@ -1,0 +1,48 @@
+/* ---------- Shared pieces ---------- */
+.eyebrow { font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--c, var(--brand)); }
+.page-head { display: flex; flex-direction: column; gap: 8px; }
+.page-head h1 { font-size: clamp(28px, 4vw, 38px); font-weight: 750; }
+.page-head p { color: var(--ink-2); max-width: 62ch; font-size: 17px; }
+.crumbs { display: flex; gap: 6px; font-size: 14px; color: var(--ink-3); flex-wrap: wrap; }
+.crumbs a { text-decoration: none; color: var(--ink-2); font-weight: 600; }
+.crumbs a:hover { color: var(--ink); text-decoration: underline; }
+
+.section { display: flex; flex-direction: column; gap: 14px; }
+.section-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+.section-head h2 { font-size: 20px; font-weight: 700; }
+.section-head a { font-size: 14px; font-weight: 600; color: var(--brand); text-decoration: none; }
+
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r-lg); }
+.grid { display: grid; gap: 14px; }
+.grid-3 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr)); }
+.grid-2 { grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); }
+
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  padding: 10px 16px; border-radius: var(--r-md); border: 1px solid transparent;
+  font-weight: 650; font-size: 15px; cursor: pointer; text-decoration: none;
+  background: var(--brand); color: var(--brand-ink);
+}
+.btn:hover { filter: brightness(1.08); }
+.btn-ghost { background: var(--surface); color: var(--ink); border-color: var(--line); }
+.btn-ghost:hover { background: var(--surface-2); filter: none; }
+.btn-done { background: var(--good-soft); color: var(--good); border-color: transparent; }
+
+.chip {
+  display: inline-flex; align-items: center; gap: 5px;
+  font-size: 12px; font-weight: 650; padding: 3px 8px; border-radius: 999px;
+  background: var(--surface-2); color: var(--ink-2); white-space: nowrap;
+}
+.chip-subject { background: var(--c-soft); color: var(--c); }
+.chip-ready { background: var(--good-soft); color: var(--good); }
+.chip-soon { background: var(--surface-2); color: var(--ink-3); }
+
+.bar { height: 6px; border-radius: 99px; background: var(--surface-2); overflow: hidden; }
+.bar > span { display: block; height: 100%; background: var(--c, var(--brand)); border-radius: inherit; transition: width .4s ease; }
+
+.meta { display: flex; gap: 12px; flex-wrap: wrap; font-size: 13px; color: var(--ink-3); font-variant-numeric: tabular-nums; }
+
+
+/* Utility wrappers */
+.contents { display: contents; }
+.btn svg { width: 16px; height: 16px; }

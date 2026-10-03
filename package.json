@@ -1,0 +1,19 @@
+{
+  "name": "prep-desk",
+  "private": true,
+  "version": "0.2.0",
+  "description": "Study app for aptitude, reasoning and English with notes, tricks, games and practice.",
+  "type": "module",
+  "workspaces": ["web", "api"],
+  "scripts": {
+    "dev": "node scripts/dev.js",
+    "dev:web": "npm run dev -w web",
+    "dev:api": "npm run dev -w api",
+    "build": "npm run build -w web",
+    "build:demo": "npm run build:demo -w web",
+    "start": "npm start -w api",
+    "test": "npm test -w api",
+    "check:content": "npm run check:content -w api"
+  },
+  "engines": { "node": ">=20.12" }
+}

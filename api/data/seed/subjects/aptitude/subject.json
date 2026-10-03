@@ -1,0 +1,78 @@
+{
+  "id": "aptitude",
+  "name": "Aptitude",
+  "tagline": "Numbers, shortcuts and speed for quantitative sections.",
+  "color": "apt",
+  "topics": [
+    {
+      "id": "percentages",
+      "title": "Percentages",
+      "blurb": "Fraction–percent conversions, increase and decrease, successive change.",
+      "level": "Foundation",
+      "minutes": 12
+    },
+    {
+      "id": "profit-loss",
+      "title": "Profit & Loss",
+      "blurb": "Cost price, selling price, markup, discount and dishonest dealers.",
+      "level": "Foundation",
+      "minutes": 15
+    },
+    {
+      "id": "ratio-proportion",
+      "title": "Ratio & Proportion",
+      "blurb": "Combining ratios, partnerships and mixtures.",
+      "level": "Foundation",
+      "minutes": 12
+    },
+    {
+      "id": "averages",
+      "title": "Averages",
+      "blurb": "Deviation method, replacements and weighted averages.",
+      "level": "Foundation",
+      "minutes": 10
+    },
+    {
+      "id": "number-system",
+      "title": "Number System",
+      "blurb": "Divisibility, HCF and LCM, remainders and unit digits.",
+      "level": "Core",
+      "minutes": 18
+    },
+    {
+      "id": "time-work",
+      "title": "Time & Work",
+      "blurb": "LCM method, pipes and cisterns, efficiency.",
+      "level": "Core",
+      "minutes": 15
+    },
+    {
+      "id": "time-speed-distance",
+      "title": "Time, Speed & Distance",
+      "blurb": "Relative speed, trains, boats and streams.",
+      "level": "Core",
+      "minutes": 18
+    },
+    {
+      "id": "interest",
+      "title": "Simple & Compound Interest",
+      "blurb": "SI vs CI, effective rate, the 2-year and 3-year difference.",
+      "level": "Core",
+      "minutes": 14
+    },
+    {
+      "id": "permutations",
+      "title": "Permutations & Combinations",
+      "blurb": "Counting principle, arrangements and selections.",
+      "level": "Advanced",
+      "minutes": 20
+    },
+    {
+      "id": "probability",
+      "title": "Probability",
+      "blurb": "Coins, dice, cards and conditional probability.",
+      "level": "Advanced",
+      "minutes": 18
+    }
+  ]
+}

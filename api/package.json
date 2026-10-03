@@ -1,0 +1,19 @@
+{
+  "name": "@prep-desk/api",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Prep Desk backend: accounts, study content, quizzes, admin and progress.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "test": "node --test",
+    "check:content": "node scripts/check-content.js"
+  },
+  "engines": { "node": ">=20.12" },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "express": "^5.1.0"
+  }
+}
